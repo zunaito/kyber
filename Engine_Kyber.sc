@@ -6,7 +6,7 @@ Engine_Kyber : CroneEngine {
   }
 
   alloc {
-    SynthDef(\Convulution2L, {
+    SynthDef(\Convolution2L, {
       arg in, out, kernel, trigger=0.0, framesize=2048, crossfade=1.0;
       
       var sig = {
