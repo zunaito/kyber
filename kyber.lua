@@ -1,4 +1,6 @@
 --  kyber 
+--    basic convolution platform
+--   
 -- [[ . ]]
 -- key1 = alt
 -- enc1 = kernel
