@@ -1,2 +1,2 @@
 # kyber
-granular convolution platform
+basic convolution platform
