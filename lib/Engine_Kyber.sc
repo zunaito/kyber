@@ -24,7 +24,11 @@ Engine_Kyber : CroneEngine {
     context.server.sync;
 
     synth = Synth.new(\Convolution2L, [
-      \out, context.out_b.index],
+      \out, context.out_b.index,
+      \kernel,
+      \trigger, 0.0,
+      \framesize, 2048,
+      \crossfade, 1.0,
     context.xg);
 
     this.addCommand("kernel", "f", {|msg|
