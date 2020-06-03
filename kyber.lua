@@ -117,24 +117,24 @@ function redraw()
   screen.move(8, 28)
   screen.text("kernel:")
   screen.move(120, 28)
-  screen.text_right(string.format("%.2f", params:get("kernel")))
+  --screen.text_right(string.format("%.2f", params:get("kernel")))
 
   screen.level(alt and 2 or 10)
   screen.move(8, 36)
   screen.text("size:  ")
   screen.move(120, 36)
-  screen.text_right(string.format("%.2f", params:get("framesize")))
+  --screen.text_right(string.format("%.2f", params:get("framesize")))
 
   screen.move(8, 44)
   screen.text("xfade:  ")
   screen.move(120, 44)
-  screen.text_right(string.format("%.2f", params:get("crossfade")))
+  --screen.text_right(string.format("%.2f", params:get("crossfade")))
 
   screen.level(alt and 10 or 2)
   screen.move(8, 52)
   screen.text("trig:  ")
   screen.move(120, 52)
-  screen.text_right(string.format("%.2f", params:get("trigger")))
+  --screen.text_right(string.format("%.2f", params:get("trigger")))
 
   screen.update()
 end
